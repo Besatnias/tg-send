@@ -1,0 +1,37 @@
+{
+  "name": "tg-send",
+  "version": "1.0.0",
+  "description": "Telegram bot to send and receive files between server (or linux machine) and Telegram",
+  "main": "servilobot.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Besatnias/tg-send.git"
+  },
+  "keywords": [
+    "tg",
+    "telegram",
+    "bot",
+    "communication",
+    "network",
+    "send",
+    "receive",
+    "api",
+    "node",
+    "fs"
+  ],
+  "author": "Bestulo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Besatnias/tg-send/issues"
+  },
+  "homepage": "https://github.com/Besatnias/tg-send#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "node-telegram-bot-api": "^0.25.0",
+    "phantom": "^3.2.1",
+    "request-promise": "^4.1.1"
+  }
+}
