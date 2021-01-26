@@ -1,7 +1,8 @@
 # tg-send
 Send and receive files between your server and Telegram.
 
-##Setup guide
+## Setup guide
+
 Download `servilobot.js` and `package.json` and put them where you want to run them. Install nodejs. On your console, do `npm start` or `npm init` and then `npm install pm2 --save`.
 
 Create your own secrets.json with a text like this:
